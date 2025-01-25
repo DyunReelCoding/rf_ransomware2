@@ -1,0 +1,10 @@
+{
+    "name": "com.native_username_retriever",
+    "description": "Retrieve the current username for Chrome extension.",
+    "path": "/home/jonriel/Documents/rf_ransomware-main/extension-test/app/native_host.py", 
+    "type": "stdio",
+    "allowed_origins": [
+      "chrome-extension://gejkcnkeimkfceignliibkinjljikopk/"
+    ]
+  }
+  
