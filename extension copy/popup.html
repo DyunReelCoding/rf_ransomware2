@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ransomware Alert</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .button {
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ransomware Detected</h1>
+  <p id="fileMessage">A suspicious file has been detected.</p>
+  <button id="deleteButton" class="button">Delete File</button>
+  <button id="keepButton" class="button">Keep File</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

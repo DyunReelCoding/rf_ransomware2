@@ -1,1 +1,1 @@
-pyinstaller --onefile --add-data "rf_ransomware.pkl:." --add-data "app.py:." --hidden-import=pefile --hidden-import=sklearn app.py
+pyinstaller --onefile --add-data "rf_ransomware.pkl:." --add-data "app.py:." --hidden-import=pefile --hidden-import=sklearn --hidden-import=sklearn.ensemble._forest app.py
